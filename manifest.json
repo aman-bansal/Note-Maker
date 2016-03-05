@@ -1,0 +1,22 @@
+{
+	"manifest_version":2,
+	"name":"NOTE-MAKER",
+	"description":"Chrome Extension Which allows you to edit a file from the browser itself",
+	"version":"1.0.0",
+
+	"browser_action":{
+		"default_icon":"icon 16x16.png",
+		"default_popup":"popup.html"
+	},
+	"icons": {
+		"48": "icon 48x48.png",
+		"128": "icon 128x128.png"
+	},
+	"permissions": [
+    "activeTab"
+    
+  ]
+	
+
+
+}
